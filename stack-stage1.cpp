@@ -3,11 +3,9 @@
  *
  * Method definitions for the stack implementation (stage 1).
  *
- * Author: Your Name
+ * Author: Jack Marley
  */
 
 #include "stack-stage1.h"
 
-string stack::top() {
-    return "Hello";
-}
+string stack::top() {return dataOfArray[sizeOfStack-1];}
